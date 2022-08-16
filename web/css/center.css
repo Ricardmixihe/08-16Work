@@ -1,0 +1,381 @@
+.topNav {
+    width: 100%;
+    height: 53px;
+    background-color: #333333;
+}
+
+
+.topNav ul {
+    height: 53px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.topNav  .line {
+    width: 2px;
+    height: 14px;
+    background-color: #dcdcdc;
+}
+.topNav  a {
+    color: #dcdcdc;
+    padding: 0 10px;
+    font-size: 14;
+}
+.topNav a:hover {
+    color: aqua;
+}
+.topNav  li:last-child a {
+    position: relative;
+    padding: 0 25px;
+}
+.topNav  li:last-child span {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    width: 12px;
+    height: 16px;
+    display: inline-block;
+    background: url('../images/sprites.png') no-repeat -160px -70px / 400px 400px;
+}
+
+/* 主体导航 */
+.main_nav {
+    height: 180px;
+    background-color: #fff;
+}
+
+.main_nav .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.main_nav  ul {
+    display: flex;
+}
+
+.main_nav .logo {
+    width: 143px;
+    height: 129px;
+}
+.main_nav .logo img {
+    width: 100%;
+}
+
+.main_nav li {
+    margin: 0 25px;
+    font-size: 16px;
+}
+.main_nav li a {
+    padding-bottom: 5px;
+}
+.main_nav li a:hover {
+    color: #5eb69c;
+    border-bottom: 2px solid #5eb69c;
+}
+.serach {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+}
+.main_nav .search_icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/sprites.png') no-repeat -80px -70px / 400px 400px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.main_nav  .car {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url('../images/sprites.png') no-repeat -120px -70px / 400px 400px;
+    vertical-align: middle;
+    position: relative;
+    left: 25px;
+    top: 0;
+}
+.main_nav  .car i {
+    width: 20px;
+    height: 14px;
+    display: block;
+    border-radius: 6px;
+    background-color: #cb5245;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    left: 15px;
+    top: -6px;
+}
+
+/* 主体区域 */
+.main_body {
+    background-color: #f6f6f6;
+    padding: 20px 0;
+}
+.main_body .wrapper  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftaside {
+    width: 227px;
+    height: 1348px;
+    background-color: #fff;
+}
+
+.leftaside .user  {
+    width: 100%;
+    height: 230px;
+    border-bottom: 2px solid #f4f4f4;
+    text-align: center;
+}
+.leftaside .user h4 {
+    margin: 10px 0;
+}
+.leftaside .user .userImg {
+    width: 85px;
+    margin-top: 47px;
+}
+.leftaside .user span {
+    display: block;
+    width: 93px;
+    height: 26px;
+    background-color: #e05e2f;
+    border-radius: 13px;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+
+}
+.leftaside .user span img {
+    width: 15px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+
+/* 我的账户 */
+.mycard {
+    width: 100%;
+    height: 435px;
+    border-bottom: 2px solid #f4f4f4;
+}
+.mycard h4 {
+    padding-left: 55px;
+    margin-top: 32px;
+}
+.mycard ul {
+    padding-left: 55px;
+}
+.mycard li {
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+.mycard li span {
+    margin-right: 5px;
+    color: #fff;
+}
+
+.mycard li:hover span,
+.mycard li:hover {
+    color: #5eb69c;
+    cursor: pointer;
+}
+
+/* 交易管理 */
+.trade {
+    width: 100%;
+    height: 265px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+/* 我的收藏 */
+.Collection {
+    width: 100%;
+    height: 186px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+
+/* 右侧盒子 */
+.rightcenter {
+    width: 990px;
+    height: 1348px;
+}
+.rightcenter .top {
+    width: 100%;
+    height: 132px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.top_leftBox {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.top_leftBox img {
+    display: block;
+    margin: 0 auto;
+}
+
+.top_leftBox p {
+    width: 64px;
+    text-align: center;
+}
+
+.rightcenter .top .line {
+    width: 1px;
+    height: 91px;
+    background-color: #f4f4f4;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top_rightBox {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_rightBox strong {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #e05e30;
+}
+.top_rightBox span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* 我的订单 */
+.myorder {
+    height: 392px;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 28px 19px;
+    box-sizing: border-box;
+}
+.toptitle {
+    display: flex;
+    justify-content: space-between;
+}
+.toptitle h4 {
+    font-size: 22px;
+}
+.toptitle a {
+    color: 16px;
+}
+.toptitle span {
+    font-family: '宋体';
+}
+.product {
+    height: 135px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    display: flex;
+
+}
+.prodect1 {
+    flex: 1;
+    height: 135px;    
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.prodect1 img {
+    width: 107px;
+    height: 107px;
+    margin-left: 12px;
+}
+.prodect1 p {
+    font-size: 16px;
+}
+.prodect1 span {
+    font-size: 14px;
+    color: #999999;
+}
+.prodect1 p:last-child {
+    color: #e05e30;
+}
+
+
+.prodect2 {
+    width: 195px;
+    height: 135px;    
+    border-right: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.prodect3 {
+    width: 180px;
+    height: 135px;   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px; 
+    align-items: center;
+}
+.prodect3  a:first-child {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #5eb69c;
+    color: #fff;
+}
+
+/* 收藏商品 */
+.Collection_product {
+    padding: 28px 26px;
+    height: 383px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.Collection_product .title {
+    height: 39px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    padding-top: 20px;
+}
+.item {
+    flex: 1;
+    text-align: center;
+}
+.item img {
+    width: 160px;
+}
+
+.item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.item  strong {
+    font-size: 22px;
+    color: #9a2e1f;
+}
